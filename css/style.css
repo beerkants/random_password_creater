@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    list-style: none; text-decoration: none; font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background: #000;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 25px;
+    background: rgba(255,255,255,.05);
+    border-radius: 15px;
+    border-left: 1px solid rgba(255,255,255,.5);
+    border-top:1px solid rgba(255,255,255,.5);
+    box-shadow: 0 0px 15px rgba(255,255,255,.2);
+}
+.container .inputBx {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.inputBx #pass_input {
+    position: absolute;
+    width: 100%; height: 100%;
+    border: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    padding: 0 30px 0 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2em;
+    border-radius: 8px;
+    user-select: none;
+}
+.inputBx i {
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center; align-items: center;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+}
+.container .rangeBx {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    column-gap: 10px;
+}
+.rangeBx #value {
+    width: 100%;
+    accent-color: #26dc16;
+    cursor: pointer;
+}
+.rangeBx span  {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    max-width: 30px;
+    text-align: center;
+}
+.container .btn  {
+    position: relative;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center; align-items: center;
+    background: #26dc16;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn:active {
+    background: #26dc;
+}
